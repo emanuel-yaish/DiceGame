@@ -1,0 +1,14 @@
+.current-score {
+  background-color: var(--red);
+  width: 10rem;
+  padding: 1vh;
+}
+
+.current-score-title {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.current-score-value {
+  color: var(--current-score-color);
+  font-size: 3rem;
+}

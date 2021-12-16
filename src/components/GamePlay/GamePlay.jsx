@@ -6,12 +6,14 @@ import "./GamePlay.css";
 function GamePlay() {
   return (
     <div className="GamePlay">
-      <GameAction label="New Game" />
-      <Dice />
-      <Dice />
-      <GameAction label="Roll Dice" />
-      <GameAction label="Hold" />
-      <TotalScore />
+      <div className="game-play-container">
+        <GameAction label="New Game" />
+        <Dice />
+        <Dice />
+        <GameAction label="Roll Dice" />
+        <GameAction label="Hold" />
+        <TotalScore />
+      </div>
     </div>
   );
 }

@@ -6,8 +6,10 @@ import "./Player.css";
 function Player() {
   return (
     <div className="Player">
-      <PlayerTitle className="PlayerTitle" text={"playerTitle"} />
-      <TurnScore />
+      <div className="top-player-container">
+        <PlayerTitle className="PlayerTitle" text={"playerTitle"} />
+        <TurnScore />
+      </div>
       <CurrentScore />
     </div>
   );

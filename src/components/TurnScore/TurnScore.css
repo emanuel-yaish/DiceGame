@@ -1,0 +1,5 @@
+.turn-score {
+  color: var(--red);
+  font-size: 7rem;
+  font-weight: 300;
+}

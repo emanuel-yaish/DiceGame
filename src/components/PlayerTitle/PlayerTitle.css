@@ -1,0 +1,5 @@
+.player-title {
+  font-size: 5rem;
+  color: var(--player-title);
+  font-weight: 300;
+}
