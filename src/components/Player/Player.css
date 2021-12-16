@@ -1,0 +1,10 @@
+.Player {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.active-player {
+  background-color: blue;
+}
