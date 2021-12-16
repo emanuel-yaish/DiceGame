@@ -4,7 +4,7 @@ import "./DiceGame.css";
 function DiceGame() {
   return (
     <div className="App">
-      <Player PlayerName="1" />
+      <Player />
     </div>
   );
 }
