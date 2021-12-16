@@ -1,3 +1,4 @@
+import DiceGame from "./components/DiceGame/DiceGame";
 import "./App.css";
 
 function App() {
