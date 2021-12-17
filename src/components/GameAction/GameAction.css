@@ -1,5 +1,6 @@
 .game-action {
   color: var(--game-action);
+  cursor: pointer;
 }
 .game-action-icon {
   color: var(--red);
@@ -13,5 +14,4 @@
 }
 .game-action-description:hover {
   color: var(--game-action-hover);
-  cursor: pointer;
 }

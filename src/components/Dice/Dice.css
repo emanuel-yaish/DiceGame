@@ -2,10 +2,25 @@
   height: 7rem;
   width: 7rem;
   border: 1px solid black;
-}
-
-.dice-4 {
-  background-image: url("../../assets/dice4.jpeg");
   background-position: center center;
   background-size: contain;
+}
+
+.dice-1 {
+  background-image: url("../../assets/dice1.jpeg");
+}
+.dice-2 {
+  background-image: url("../../assets/dice2.jpeg");
+}
+.dice-3 {
+  background-image: url("../../assets/dice3.jpeg");
+}
+.dice-4 {
+  background-image: url("../../assets/dice4.jpeg");
+}
+.dice-5 {
+  background-image: url("../../assets/dice5.jpeg");
+}
+.dice-6 {
+  background-image: url("../../assets/dice6.jpeg");
 }

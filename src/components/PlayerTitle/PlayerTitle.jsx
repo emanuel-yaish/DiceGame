@@ -1,7 +1,7 @@
 import "./PlayerTitle.css";
 
-function PlayerTitle() {
-  return <div className="player-title">{"PLAYER 1"}</div>;
+function PlayerTitle(props) {
+  return <div className="player-title">{props.text}</div>;
 }
 
 export default PlayerTitle;
