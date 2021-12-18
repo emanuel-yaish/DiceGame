@@ -1,7 +1,10 @@
 import "./PlayerTitle.css";
 
 function PlayerTitle(props) {
-  return <div className="player-title">{props.text}</div>;
+  const playerTitleColor = () =>
+    props.text === "winner" ? "player-title winner" : "player-title";
+
+  return <div className={playerTitleColor()}>{props.text}</div>;
 }
 
 export default PlayerTitle;

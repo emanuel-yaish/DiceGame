@@ -5,3 +5,11 @@
   border: 1px solid var(--game-action);
   padding: 1rem 2.5rem;
 }
+
+.total-score-input {
+  color: var(--game-action);
+  font-size: 1.5rem;
+  border: 1px solid var(--game-action);
+  padding: 1rem 0;
+  text-align: center;
+}

@@ -6,6 +6,7 @@
   color: var(--red);
   font-size: 2rem;
   vertical-align: sub;
+  margin-right: 0.5rem;
 }
 .game-action-description {
   font-size: 1.5rem;

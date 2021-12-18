@@ -4,13 +4,12 @@ import CurrentScore from "../CurrentScore/CurrentScore";
 import "./Player.css";
 
 function Player(props) {
+  const activePlayer = () =>
+    props.playerNumber === props.currentPlayer ? "player active" : "player";
   return (
-    <div className="Player">
+    <div className={activePlayer()}>
       <div className="top-player-container">
-        <PlayerTitle
-          className="PlayerTitle"
-          text={`player${props.playerNumber}`}
-        />
+        <PlayerTitle text={props.PlayerTitle} />
         <GlobalScore globalScore={props.globalScore[props.playerNumber - 1]} />
       </div>
       <CurrentScore score={props.currentScore[props.playerNumber - 1]} />

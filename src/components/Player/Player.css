@@ -1,4 +1,4 @@
-.Player {
+.player {
   width: 50vw;
   height: 100vh;
   display: flex;
@@ -7,6 +7,6 @@
   align-items: center;
 }
 
-.active-player {
-  background-color: blue;
+.active {
+  background-color: var(--pink);
 }

@@ -3,3 +3,7 @@
   color: var(--player-title);
   font-weight: 300;
 }
+
+.winner {
+  color: var(--red);
+}
