@@ -85,15 +85,17 @@ class GamePlay extends React.Component {
 
   render() {
     return (
-      <div className="GamePlay">
+      <div className="game-play">
         <div className="game-play-container">
           <GameAction
             actionName="New Game"
             action={this.newGame}
             icon={"fas fa-gamepad"}
           />
-          <Dice diceNumber={this.state.dices[0]} />
-          <Dice diceNumber={this.state.dices[1]} />
+          <div className="dice-container">
+            <Dice diceNumber={this.state.dices[0]} />
+            <Dice diceNumber={this.state.dices[1]} />
+          </div>
           <GameAction
             actionName="Roll Dice"
             action={() => this.rollDice(this.state.dices)}

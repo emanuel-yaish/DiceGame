@@ -10,3 +10,15 @@
 .active {
   background-color: var(--pink);
 }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .player {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 1px 2px 10px black;
+  }
+}

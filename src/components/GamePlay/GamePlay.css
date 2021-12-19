@@ -1,4 +1,4 @@
-.GamePlay {
+.game-play {
   z-index: 1;
   background-color: transparent;
   position: absolute;
@@ -13,4 +13,16 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .game-play {
+    z-index: unset;
+    position: relative;
+    height: 70vh;
+  }
+  .dice-container {
+    display: flex;
+  }
 }

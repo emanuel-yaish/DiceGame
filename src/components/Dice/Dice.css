@@ -4,6 +4,7 @@
   border: 1px solid black;
   background-position: center center;
   background-size: contain;
+  margin: 0 0 2rem 0;
 }
 
 .dice-1 {
@@ -23,4 +24,15 @@
 }
 .dice-6 {
   background-image: url("../../assets/dice6.jpeg");
+}
+
+@media only screen and (max-width: 768px) {
+  .dice {
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid black;
+    background-position: center center;
+    background-size: contain;
+    margin: 1rem;
+  }
 }

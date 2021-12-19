@@ -7,3 +7,10 @@
 .winner {
   color: var(--red);
 }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .player-title {
+    font-size: 2rem;
+  }
+}

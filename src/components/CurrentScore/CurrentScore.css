@@ -12,3 +12,10 @@
   color: var(--current-score-color);
   font-size: 3rem;
 }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .current-score-value {
+    font-size: 2rem;
+  }
+}
